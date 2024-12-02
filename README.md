@@ -2,7 +2,7 @@
 Simplifying dnSpy Debugging for DLLs
 
 ## Why do you need this?
-You don't! In my case, it is too annoying when I dump a DLL in .NET and cannot debug it directly. After experiencing this problem, I decided to create a kind of _helper_ for display.
+You don't! In my case, it is too annoying when I dump a **DLL** in **.NET** and cannot debug it directly. After experiencing this problem, I decided to create a kind of _helper_ for display.
 
 It means that you can simply tell what should be called, and the _helper_ will do it for you. Let's see an example.
 
@@ -21,7 +21,7 @@ The ``config.json``.
 
 ```
 
-There is a need to add the ``Name``, the MethodName, and the ``Parameters``parameter if needed.
+There is a need to add the ``Name``, the MethodName, and the ``Parameters`` parameter if needed.
 
 In my **DLLTest** example I have three methods:
 ```C#
@@ -44,7 +44,7 @@ public static int AddTwoValues(int val1, int val2)
 That's the reason my ``config.json`` is in that way.
 
 ## Using dnSpyDLLHelper
-We just need to load both files in **[dnSpy](https://github.com/dnSpyEx)**. The fastest way is to add a breakpoint on the DLL you want to debug and run the _helper_.
+We just need to load both files in **[dnSpy](https://github.com/dnSpyEx)**. The fastest way is to add a breakpoint on the **DLL** you want to debug and run the _helper_.
 
 It should be something such as this image below:
 
