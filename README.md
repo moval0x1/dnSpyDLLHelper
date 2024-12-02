@@ -15,7 +15,7 @@ The ``config.json``.
     "Methods": [
         { "Name": "PrintHelloWorld", "Parameters": [] },
         { "Name": "ShowMessage", "Parameters": ["Hello from config!", "My new title"] },
-	    { "Name": "AddTwoValues", "Parameters": [2, 5] }
+        { "Name": "AddTwoValues", "Parameters": [2, 5] }
     ]
 }
 
