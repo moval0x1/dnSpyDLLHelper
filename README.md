@@ -1,6 +1,12 @@
 # dnSpyDLLHelper
 Simplifying dnSpy Debugging for DLLs
 
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/moval0x1/dnSpyDLLHelper)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://www.microsoft.com/windows)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![GitHub all releases](https://img.shields.io/github/downloads/moval0x1/dnSpyDLLHelper/total)
+![GitHub release downloads](https://img.shields.io/github/downloads/moval0x1/dnSpyDLLHelper/latest/total)
+
 ## Why do you need this?
 You don't! In my case, it is too annoying when I dump a **DLL** in **.NET** and cannot debug it directly. After experiencing this problem, I decided to create a kind of _helper_ for display.
 
